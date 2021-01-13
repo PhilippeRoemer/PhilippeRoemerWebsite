@@ -1,275 +1,306 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="icon" href="images/favicon.ico">
-	<title>Philippe Roemer</title>
-    <link rel="stylesheet" href="bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-	<script src="bootstrap.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="scrollReveal.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135883318-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="images/favicon.ico" />
+        <title>Philippe Roemer</title>
+        <link rel="stylesheet" href="bootstrap.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <script src="bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="scrollReveal.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135883318-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-		gtag('config', 'UA-135883318-1');
-	</script>
-</head>
-<body>
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-left logo"><img src="images/logo.png"></a>
+            gtag("config", "UA-135883318-1");
+        </script>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-left logo"><img src="images/logo.png" /></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#PastProjects">Past Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="parallax">
+            <div class="caption">
+                <h1><span class="first_name">PHILIPPE</span> <span class="last_name">ROEMER</span></h1>
+            </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#About" >About</a></li>
-			<li><a href="#PastProjects">Past Projects</a></li>
-          </ul>
+
+        <!-- About Me -->
+        <div style="font-size: 1em; color: #fff; padding-bottom: 10%" class="container-fluid AboutMe">
+            <a name="About"></a>
+            <h1 class="text-center about_me" style="margin-top: 50px; color: #ccc">ABOUT ME</h1>
+
+            <div class="row featurette">
+                <div class="col-md-5 col-sm-12 text-center">
+                    <img class="profilePicture" src="images/profile.jpg" />
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="AboutList">
+                        <b><p class="about_me1">IT and web development professional with an interest in</p></b>
+                        <ul>
+                            <li class="AboutListSpacing about_me2">Technology</li>
+                            <li class="AboutListSpacing about_me3">Cryptocurrency (Specifically IOTA)</li>
+                            <ul>
+                                <li class="AboutSubListSpacing about_me3">
+                                    Current Project: <a href="https://philipperoemer.github.io/CryptoCalculator/" target="_blank">Crypto Calculator</a> -
+                                    <a href="https://github.com/PhilippeRoemer/CryptoCalculator/tree/master" target="_blank">GitHub</a>
+                                </li>
+                            </ul>
+                            <li class="AboutListSpacing about_me4">Photography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
 
-<div class="parallax">
-		<div class="caption"><h1><span class="first_name">PHILIPPE</span> <span class="last_name">ROEMER</span></h1></div>
-</div>
+        <!-- Past Projects -->
+        <div class="parallax2">
+            <a name="PastProjects"></a>
+            <h1 class="projectTitle past_projects"><span class="past_projects_title">PAST PROJECTS</span></h1>
 
-<div style="font-size:1em; color:#FFF; padding-bottom:10%;" class="container-fluid AboutMe">
-	<a name="About"></a>
-	<h1 class="text-center about_me" style="margin-top: 50px; color: #CCC;">ABOUT ME</h1>
-	
-        <div class="row featurette">
-			<div class="col-md-5 col-sm-12 text-center">
-				<img class="profilePicture" src="images/profile.jpg">
-			</div>		
-			<div class="col-md-7  col-sm-12">
-				<div class="AboutList">
-					<b><p class="about_me1">IT and web development professional with an interest in</p></b>
-						<ul>
-							<li class="AboutListSpacing about_me2">Technology</li>
-							<li class="AboutListSpacing about_me3">Cryptocurrency (Specifically IOTA)</li>
-								<ul>
-									<li class="AboutSubListSpacing about_me3">Current Project: <a href="https://philipperoemer.github.io/CryptoCalculator/" target="_blank">Crypto Calculator</a> - <a href="https://github.com/PhilippeRoemer/CryptoCalculator/tree/master" target="_blank">GitHub</a></li>
-								</ul>
-							<li class="AboutListSpacing about_me4">Photography</li>			
-						</ul>
-				</div>		
-			</div>
-        </div>	
-</div>
+            <div class="row text-center">
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects1" data-toggle="modal" data-target="#basicModal1"><img src="images/projects/COT1.png" class="projectOuterImage" /></a>
+                </div>
 
-<div class="parallax2">
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects2" data-toggle="modal" data-target="#basicModal2"><img src="images/projects/centralPark1.png" class="projectOuterImage" /></a>
+                </div>
 
-<a name="PastProjects"></a>
-	<h1 class="projectTitle past_projects"><span class="past_projects_title">PAST PROJECTS</span></h1>
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects3" data-toggle="modal" data-target="#basicModal3"><img src="images/projects/ETA1.png" class="projectOuterImage" /></a>
+                </div>
+            </div>
 
-		<div class="row text-center" >
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects1" data-toggle="modal" data-target="#basicModal1"><img src="images/projects/COT1.png" class="projectOuterImage"/></a>
-			</div>
+            <div class="row text-center" style="padding-top: 50px">
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects4" data-toggle="modal" data-target="#basicModal4"><img src="images/projects/IES1.png" class="projectOuterImage" /></a>
+                </div>
 
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects2" data-toggle="modal" data-target="#basicModal2"><img src="images/projects/centralPark1.png" class="projectOuterImage"/></a>
-			</div>
-			
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects3" data-toggle="modal" data-target="#basicModal3"><img src="images/projects/ETA1.png" class="projectOuterImage"/></a>
-			</div>	
-        </div>		
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects5" data-toggle="modal" data-target="#basicModal5"><img src="images/projects/CTE1.png" class="projectOuterImage" /></a>
+                </div>
 
-		<div class="row text-center" style="padding-top:50px;">
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects4" data-toggle="modal" data-target="#basicModal4"><img src="images/projects/IES1.png" class="projectOuterImage"/></a>
-			</div>
+                <div class="col-xs-4 col-md-4">
+                    <a class="btn btn-lg btn-secondary past_projects6" data-toggle="modal" data-target="#basicModal6"><img src="images/projects/OIE1.png" class="projectOuterImage" /></a>
+                </div>
+            </div>
 
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects5" data-toggle="modal" data-target="#basicModal5"><img src="images/projects/CTE1.png" class="projectOuterImage"/></a>
-			</div>
-			
-			<div class="col-xs-4 col-md-4">
-				<a class="btn btn-lg btn-secondary past_projects6" data-toggle="modal" data-target="#basicModal6"><img src="images/projects/OIE1.png" class="projectOuterImage"/></a>
-			</div>	
-        </div>	
+            <div class="modal fade" id="basicModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Certifying Officer Training - Department of Treasury</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <b>Lead Web Developer/Content Liaison:</b> Assisted the U.S. Department of Treasury, Bureau of the Fiscal Service, to develop an online portal, used by thousands of
+                                certifying officers who were required to complete annual and refresher training courses in online formats. Courses were developed in Articulate Storyline and embedded
+                                into an HTML, CSS, JavaScript-based, 508 compliant website.
+                            </p>
+                            <br />
+                            <p><a href="https://fiscal.treasury.gov/training/cot/" target="_blank">The Certifying Officer Training Program</a></p>
+                            <br />
+                            <p><b>Site built using</b></p>
+                            <ul class="siteInfo">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <img src="images/projects/COT2.png" class="projectInnerImage" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="basicModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Certifying Officer Training - Department of Treasury</h4>
-			  </div>
-			  <div class="modal-body">
-				<p><b>Lead Web Developer/Content Liaison:</b> Assisted the U.S. Department of Treasury, Bureau of the Fiscal Service, to develop an online portal, used by thousands of certifying officers who were required to complete annual and refresher training courses in online formats. Courses were developed in Articulate Storyline and embedded into an HTML, CSS, JavaScript-based, 508 compliant website.</p>
-				<br/>
-				<p><a href="https://fiscal.treasury.gov/training/cot/" target="_blank">The Certifying Officer Training Program</a></p>
-				<br/>
-				<p><b>Site built using</b></p>
-					<ul class="siteInfo">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-					</ul>
-				<img src="images/projects/COT2.png" class="projectInnerImage"/>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>		
+            <div class="modal fade" id="basicModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">MSG Central Park - Intranet</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                MSG Central Park is <a href="http://manhattanstrategy.com/" target="_blank">Manhattan Strategy Group</a>'s intranet which serves as a hub of company news and resources.
+                                My role for this project was to create, maintain, and update the company's intranet.
+                            </p>
+                            <br />
+                            <p><b>Site built using</b></p>
+                            <ul class="siteInfo">
+                                <li>Wordpress</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <img src="images/projects/centralPark2.png" class="projectInnerImage" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="basicModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">MSG Central Park - Intranet</h4>
-			  </div>
-			  <div class="modal-body">
-				<p>MSG Central Park is <a href="http://manhattanstrategy.com/" target="_blank">Manhattan Strategy Group</a>'s intranet which serves as a hub of company news and resources. My role for this project was to create, maintain, and update the company's intranet.</p>
-				<br/>
-				<p><b>Site built using</b></p>
-					<ul class="siteInfo">
-						<li>Wordpress</li>
-						<li>HTML</li>
-						<li>CSS</li>
-					</ul>				
-				<img src="images/projects/centralPark2.png"  class="projectInnerImage"/>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>	
+            <div class="modal fade" id="basicModal3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Employment and Training Administration (ETA) - Department of Labor</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                The SMART Financial Grants Management website is a dynamic website which provides guideance on federal grant managment requirements through presentations and exercises
+                                for grants and subrecipients responsible for administering DOL-ETA formula and discretionary programs. My role for this project was to maintain and update the SMART
+                                Financial Grants Management website.
+                            </p>
+                            <br />
+                            <p><b>Site built using</b></p>
+                            <ul class="siteInfo">
+                                <li>PHP</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <img src="images/projects/ETA2.png" class="projectInnerImage" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="basicModal3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel"> Employment and Training Administration (ETA) - Department of Labor</h4>
-			  </div>
-			  <div class="modal-body">
-				<p>The SMART Financial Grants Management website is a dynamic website which provides guideance on federal grant managment requirements through presentations and exercises for grants and subrecipients responsible for administering DOL-ETA formula and discretionary programs. My role for this project was to maintain and update the SMART Financial Grants Management website.</p>
-				<br/>
-				<p><b>Site built using</b></p>
-					<ul class="siteInfo">
-						<li>PHP</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-					</ul>					
-				<img src="images/projects/ETA2.png" class="projectInnerImage"/>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>	
+            <div class="modal fade" id="basicModal4" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Annual Principal Investigators Conference - Department of Labor</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <b>Mobile App Development/Data Synchronization:</b> Worked with the development team and directly with the Project Director to create a mobile app using both GuideBook
+                                and CrowdCompass that served roughly 500 attendees annually across 5 national conferences.
+                            </p>
+                            <br />
+                            <p><b>App built using</b></p>
+                            <ul class="siteInfo">
+                                <li>Guidebook</li>
+                            </ul>
+                            <div class="projectInnerMobileImage">
+                                <img src="images/projects/IES3.png" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="basicModal4" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Annual Principal Investigators Conference - Department of Labor</h4>
-			  </div>
-			  <div class="modal-body">
-				<p><b>Mobile App Development/Data Synchronization:</b> Worked with the development team and directly with the Project Director to create a mobile app using both GuideBook and CrowdCompass that served roughly 500 attendees annually across 5 national conferences.</p>
-				<br/>
-				<p><b>App built using</b></p>
-					<ul class="siteInfo">
-						<li>Guidebook</li>
-					</ul>			
-				<div class="projectInnerMobileImage">
-					<img src="images/projects/IES3.png"/>
-				</div>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>			
+            <div class="modal fade" id="basicModal5" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Advancing Career Pathways in CTE - Department of Education</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <b>Lead Web Developer:</b> Worked closely with the Technical Assistance (TA) and graphic design teams to develop an online presence for the U.S. Department of
+                                Education’s Office of Career and Technical Education office to highlight information for three regional meetings aimed at increasing the effectiveness of career
+                                pathways at the state and regional levels. Photoshop files were converted into a 508-compliant and cross-browser compatible HTML, CSS, and JavaScript website, hosted on
+                                Amazon Web Services. The website was hosted on Amazon Web Services EC2.
+                            </p>
+                            <br />
+                            <p><b>Site built using</b></p>
+                            <ul class="siteInfo">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <img src="images/projects/CTE2.png" class="projectInnerImage" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-		<div class="modal fade" id="basicModal5" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel"> Advancing Career Pathways in CTE - Department of Education</h4>
-			  </div>
-			  <div class="modal-body">
-				<p><b>Lead Web Developer:</b> Worked closely with the Technical Assistance (TA) and graphic design teams to develop an online presence for the U.S. Department of Education’s Office of Career and Technical Education office to highlight information for three regional meetings aimed at increasing the effectiveness of career pathways at the state and regional levels. Photoshop files were converted into a 508-compliant and cross-browser compatible HTML, CSS, and JavaScript website, hosted on Amazon Web Services. The website was hosted on Amazon Web Services EC2.</p>
-				<br/>
-				<p><b>Site built using</b></p>
-					<ul class="siteInfo">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-					</ul>				
-				<img src="images/projects/CTE2.png" class="projectInnerImage"/>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>	
+            <div class="modal fade" id="basicModal6" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Office of Indian Education Meeting Planning and Logistics Support - Department of Education</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <b>Lead Web Developer:</b> Worked alongside the project team to make just-in-time and frequent updates to a meeting logistic website hosted on Amazon Web Services to
+                                keep the National Advisory Council on Indian Education (NACIE) event attendees up to date with new meeting and logistic information for upcoming meetings.
+                            </p>
+                            <br />
+                            <p><b>Site built using</b></p>
+                            <ul class="siteInfo">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <img src="images/projects/OIE2.png" class="projectInnerImage" />
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/philippe-roemer-23b3918a/" target="_blank"><img src="images/linkedin_logo.png" class="socialIcon" /></a>
+            <a href="https://github.com/PhilippeRoemer" target="_blank"><img src="images/github_logo.png" class="socialIcon" /></a>
+        </div>
+        <!-- Scroll button to top -->
+        <div>
+            <button onclick="scrollHome()" class="scrollButton"></button>
+        </div>
 
-		<div class="modal fade" id="basicModal6" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel"> Office of Indian Education Meeting Planning and Logistics Support - Department of Education</h4>
-			  </div>
-			  <div class="modal-body">
-				<p><b>Lead Web Developer:</b> Worked alongside the project team to make just-in-time and frequent updates to a meeting logistic website hosted on Amazon Web Services to keep the National Advisory Council on Indian Education (NACIE) event attendees up to date with new meeting and logistic information for upcoming meetings.</p>
-				<br/>
-				<p><b>Site built using</b></p>
-					<ul class="siteInfo">
-						<li>HTML</li>
-						<li>CSS</li>
-					</ul>
-				<img src="images/projects/OIE2.png" class="projectInnerImage"/>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>	
-</div>
-
-<div class="footer">
-	<a href="https://www.linkedin.com/in/philippe-roemer-23b3918a/" target="_blank"><img src="images/linkedin_logo.png" class="socialIcon"/></a>	
-	<a href="https://github.com/PhilippeRoemer" target="_blank"><img src="images/github_logo.png" class="socialIcon"/></a>
-</div>
-
-<div >
-	<button onclick="scrollHome()" class="scrollButton"></button>
-</div>
-
-<script>
-	function scrollHome() {
-	  window.scrollTo(0, 0);
-	}
-</script>
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scrollReveal.js"></script>
-</body>
+        <script>
+            function scrollHome() {
+                window.scrollTo(0, 0);
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scrollReveal.js"></script>
+    </body>
 </html>
