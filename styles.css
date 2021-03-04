@@ -118,6 +118,7 @@ html {
     width: 50%;
     border-radius: 50%;
     filter: brightness(80%);
+    cursor: pointer;
 }
 
 .projectOuterImage:hover {
