@@ -77,15 +77,15 @@ html {
 
 .AboutList {
     color: #b3b3b3;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 2%;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .AboutListSpacing {
     margin-top: 20px;
     margin-left: 7%;
-    font-size: 25px;
+    font-size: 1em;
 }
 
 .AboutSubListSpacing {
