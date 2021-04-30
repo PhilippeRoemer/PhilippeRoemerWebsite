@@ -177,6 +177,9 @@ html {
 
 .languages {
     height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .languages ul {
@@ -199,4 +202,8 @@ html {
 
 .languages p {
     font-weight: bold;
+}
+
+.textCenter {
+    text-align: center;
 }
