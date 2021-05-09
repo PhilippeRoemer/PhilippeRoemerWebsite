@@ -126,9 +126,9 @@ html {
 }
 
 .projectOuterImage:hover {
-    -webkit-box-shadow: 10px 10px 24px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 24px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 24px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 24px 2px rgba(53, 53, 53, 0.75);
+    -moz-box-shadow: 10px 10px 24px 2px rgba(53, 53, 53, 0.75);
+    box-shadow: 10px 10px 24px 2px rgba(53, 53, 53, 0.75);
     width: 50%;
     border-radius: 50%;
     filter: brightness(100%);
